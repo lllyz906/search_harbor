@@ -9,7 +9,7 @@ The agent-facing contract is `instruction.md`; execution timeouts are in `task.t
 
 This repository includes only the first **10 records per dataset split** (40 dataset records in total). The local full datasets are not uploaded. These samples demonstrate the JSONL format and are not suitable for training, benchmark results, or full-data integrity checks. `environment/data/manifest.json` describes the samples; `full_manifest.reference.json` records the original full-bundle metadata for reference.
 
-The original directory is also missing files referenced by the preparation/build scripts, including `environment/data_tools.py`, `environment/verify_data.py`, `examples/public.jsonl`, and `requirements-prepare.txt`. These dependencies must be restored and the full datasets prepared before running the documented build or preflight commands.
+The current local directory does not contain the preparation scripts and supporting files referenced below, including `prepare_data.py`, `preflight.py`, `environment/data_tools.py`, `environment/verify_data.py`, `examples/public.jsonl`, and `requirements-prepare.txt`. Restore those files and prepare the full datasets before using the documented preparation, build, or preflight commands.
 
 ## Directory layout
 
