@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "hotpot_qa/test.jsonl",
+      "bytes": 46428993,
+      "sha256": "ac87c5bf67bc2281f308481ad4d17740b52abb70a6882660bf1f78b392312ab2",
+      "rows": 7405
+    },
+    {
+      "path": "hotpot_qa/train.jsonl",
+      "bytes": 561782661,
+      "sha256": "a35705a54bc21920547206767cb59b398ab0abdbefd17a607651dcc8fc231405",
+      "rows": 90447
+    },
+    {
+      "path": "musique/musique_ans_v1.0_test.jsonl",
+      "bytes": 30439728,
+      "sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+      "rows": 2417
+    },
+    {
+      "path": "musique/musique_ans_v1.0_train.jsonl",
+      "bytes": 241046755,
+      "sha256": "83a75b1e11e4e9bb8f8308e72ac40ca617ae4431b3a0d955b61cab259248490a",
+      "rows": 19938
+    }
+  ]
+}

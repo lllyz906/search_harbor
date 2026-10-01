@@ -5,10 +5,16 @@ GPUs, using HotpotQA and MuSiQue-Ans evidence-conditioned questions. The held
 out evaluation uses both datasets and reports only joint F1.
 The agent-facing contract is `instruction.md`; execution timeouts are in `task.toml`.
 
+## GitHub sample bundle
+
+This repository includes only the first **10 records per dataset split** (40 dataset records in total). The local full datasets are not uploaded. These samples demonstrate the JSONL format and are not suitable for training, benchmark results, or full-data integrity checks. `environment/data/manifest.json` describes the samples; `full_manifest.reference.json` records the original full-bundle metadata for reference.
+
+The original directory is also missing files referenced by the preparation/build scripts, including `environment/data_tools.py`, `environment/verify_data.py`, `examples/public.jsonl`, and `requirements-prepare.txt`. These dependencies must be restored and the full datasets prepared before running the documented build or preflight commands.
+
 ## Directory layout
 
 ```text
-search/
+harbor_tasks/
 ├── instruction.md              # Agent-facing rules
 ├── task.toml                   # Harbor metadata and timeouts
 ├── prepare_data.py             # Download, validate, and stage public data

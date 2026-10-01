@@ -1,0 +1,4 @@
+**/*.partial
+**/__pycache__
+data/hotpot_qa/distractor/
+data/hotpot_qa/fullwiki/

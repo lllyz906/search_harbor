@@ -1,0 +1,30 @@
+{
+  "sample_only": true,
+  "sampling": "First 10 records of each original JSONL file",
+  "files": [
+    {
+      "path": "hotpot_qa/test.jsonl",
+      "bytes": 69518,
+      "sha256": "9c2176086baef4ec70ea410b09cc91b4187e6b34a8f42e8d48672427857eef35",
+      "rows": 10
+    },
+    {
+      "path": "hotpot_qa/train.jsonl",
+      "bytes": 61927,
+      "sha256": "6deb294a238abd31b8bd7b6f292dddfcd0cd75509f5ea12f7101735c65998329",
+      "rows": 10
+    },
+    {
+      "path": "musique/musique_ans_v1.0_test.jsonl",
+      "bytes": 113812,
+      "sha256": "9e60d4b7123c47cf3cb074a0c8aaa2acce9233114be3cd4bd6b45d6cbed3f1b5",
+      "rows": 10
+    },
+    {
+      "path": "musique/musique_ans_v1.0_train.jsonl",
+      "bytes": 112031,
+      "sha256": "94505c9a01776940afdba6138bafd36173891c45e49d0a5ad963acb42224c425",
+      "rows": 10
+    }
+  ]
+}
